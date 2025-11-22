@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "nodeVersion": "18.x",
+  "env": [
+    {
+      "key": "NODE_ENV",
+      "value": "production"
+    }
+  ],
+  "git": {
+    "deploymentEnabled": true
+  }
+}
