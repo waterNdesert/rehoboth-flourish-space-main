@@ -1,12 +1,12 @@
 # Netlify configuration for Rehoboth Flourish Space
 
 [build]
-  command = "npm ci && npm run build"
+  command = "npm ci --include=dev && npm run build"
   functions = "netlify/functions"
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18.17.0"
+  NODE_VERSION = "20.10.0"
 
 # Redirect rules for single-page application
 [[redirects]]
